@@ -18,4 +18,4 @@ FROM scratch
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /build .
 
-ENTRYPOINT ["./binance -pair=XRP/USDC -percent=4"]
+ENTRYPOINT [""]
